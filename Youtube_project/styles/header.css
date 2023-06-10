@@ -1,0 +1,100 @@
+.search{
+    display: block;
+
+}
+.header{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+}
+.left-section{
+    
+    display: flex;
+    align-items: center;
+}
+.menu{
+height: 24px;
+margin-left: 20px;
+margin-right: 20px;
+}
+.halith-logo{
+height: 20px;
+}
+.middle-section{
+flex: 1;
+margin-left: 70px;
+margin-right: 35px;
+max-width: 500px;
+display: flex;
+align-items: center;
+}
+.search{
+    flex: 1;
+    height: 36px;
+    padding-left: 10px;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192,192,192);
+    border-radius: 2px;
+}
+.search::placeholder{
+    font-family: Roboto, Arial;
+    font-size: 16px;
+}
+.search-button{
+height: 40px;
+width: 60px;
+background-color: rgb(240,240,240);
+border-width: 1px;
+border-style: solid;
+border-color: rgb(192,192,192);
+margin-right: 10px;
+
+}
+.image{
+    height: 20px;
+    width: 20px;
+    margin-top: 3px;
+}
+.image2{
+    height: 28px;
+    width: 28px;
+    margin-top: 3px;
+   
+}
+.voice{
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    border: none;
+}
+.right-section{
+width: 200px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-right: 20px;
+flex-shrink: 0;
+}
+.upload{
+height: 24px;
+}
+.apps{
+    height: 24px;
+
+}
+.notify{
+    height: 24px;
+
+}
+.user-profile{
+height: 32px;
+border-radius: 16px;
+}
